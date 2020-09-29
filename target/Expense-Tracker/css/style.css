@@ -1,0 +1,12 @@
+body{
+	 background-color: #EAF0F1!important;
+}
+
+.error{
+	color: red;	
+}
+
+.card:hover{
+	cursor: pointer;
+	color:#2980b9;
+}
