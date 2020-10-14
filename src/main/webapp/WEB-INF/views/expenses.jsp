@@ -20,7 +20,7 @@
 		
 				<c:choose>
 				
-					<c:when test="${myExpenses}!=null ">
+					<c:when test="${not empty myExpenses}">
 					
 						<form:form modelAttribute="expenses">
 					

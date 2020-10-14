@@ -90,6 +90,7 @@ public class UserController {
 	public String logoutUser(@ModelAttribute LoginUser loginUser,SessionStatus sessionStatus) {
 		sessionStatus.setComplete();
 		request.getSession().invalidate();
+		session.setAttribute("message", "Logout successfull");
 		return "login";
 	}
 
